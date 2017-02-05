@@ -10,9 +10,9 @@ import Foundation
 
 class CricketGame {
     
-    @IBInspectable var overs:Int
-    @IBInspectable var players:Int
-    @IBInspectable var run:Int
+    var overs:Int
+    var players:Int
+    var run:Int
     var balls,wickets:Int
     var score:Int
     var gameOver:Bool

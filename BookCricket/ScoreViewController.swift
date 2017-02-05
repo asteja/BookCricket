@@ -9,7 +9,7 @@
 import UIKit
 import CoreGraphics
 
-@IBDesignable class ScoreViewController: UIViewController {
+class ScoreViewController: UIViewController {
 
     @IBOutlet weak var ballIV: UIImageView!
     @IBOutlet weak var parentView: UIView!
@@ -19,19 +19,13 @@ import CoreGraphics
     @IBOutlet weak var scoreLBL: UILabel!
     @IBOutlet weak var scoreBTN: UIButton!
     
-   @IBInspectable var game:CricketGame?
-    
+    var game:CricketGame?
     var isLabelViewShowing = true
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        
         game = appDelegate.game
-        
-        
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -54,8 +48,8 @@ import CoreGraphics
        }
     
     func displayScore() {
-        runsLBL.text = game?.generateRun()
-        scoreLBL.text = "\(game?.score)/\(game?.wickets)"
+        runsLBL.text = game!.generateRun()
+        scoreLBL.text = "\(game!.score)/\(game!.wickets)"
         if game?.gameOver == true {
             scoreBTN.isEnabled = false
         }

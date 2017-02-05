@@ -19,7 +19,6 @@
 		93158DD71E44EE7F00BFFF4D /* Dossier-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 93158DD61E44EE7F00BFFF4D /* Dossier-25.png */; };
 		93158DD91E44EF7500BFFF4D /* CricketBall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93158DD81E44EF7500BFFF4D /* CricketBall.jpg */; };
 		93158DDC1E44F17100BFFF4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93158DDB1E44F17100BFFF4D /* CoreGraphics.framework */; };
-		93158DDE1E44FDF500BFFF4D /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DDD1E44FDF500BFFF4D /* LabelView.swift */; };
 		93158DE01E4523D500BFFF4D /* CricketGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DDF1E4523D500BFFF4D /* CricketGame.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 		93158DD61E44EE7F00BFFF4D /* Dossier-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dossier-25.png"; sourceTree = "<group>"; };
 		93158DD81E44EF7500BFFF4D /* CricketBall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CricketBall.jpg; sourceTree = "<group>"; };
 		93158DDB1E44F17100BFFF4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		93158DDD1E44FDF500BFFF4D /* LabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		93158DDF1E4523D500BFFF4D /* CricketGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CricketGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,7 +76,6 @@
 				93158DBE1E44E59200BFFF4D /* ScoreViewController.swift */,
 				93158DC01E44E59200BFFF4D /* SettingsViewController.swift */,
 				93158DC21E44E59200BFFF4D /* Main.storyboard */,
-				93158DDD1E44FDF500BFFF4D /* LabelView.swift */,
 				93158DC51E44E59200BFFF4D /* Assets.xcassets */,
 				93158DD81E44EF7500BFFF4D /* CricketBall.jpg */,
 				93158DD61E44EE7F00BFFF4D /* Dossier-25.png */,
@@ -182,7 +179,6 @@
 				93158DBD1E44E59200BFFF4D /* AppDelegate.swift in Sources */,
 				93158DD11E44EAEB00BFFF4D /* TeamScoreViewController.swift in Sources */,
 				93158DBF1E44E59200BFFF4D /* ScoreViewController.swift in Sources */,
-				93158DDE1E44FDF500BFFF4D /* LabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +342,7 @@
 				93158DCF1E44E59200BFFF4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

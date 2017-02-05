@@ -32,7 +32,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FKH-6I-9eG" customClass="CricketGame" customModule="BookCricket" customModuleProvider="target">
                                 <rect key="frame" x="67" y="82" width="240" height="244"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1p-o8-ldr" customClass="LabelView" customModule="BookCricket" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1p-o8-ldr">
                                         <rect key="frame" x="52" y="56" width="136" height="132"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HyB-ye-CPY">
@@ -95,6 +95,7 @@
                     <tabBarItem key="tabBarItem" title="Score" image="Cricket-48.png" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="ballIV" destination="Wpe-QL-xA8" id="hpQ-e4-Jlz"/>
+                        <outlet property="labelVW" destination="S1p-o8-ldr" id="Dfw-bA-NZX"/>
                         <outlet property="labelView" destination="S1p-o8-ldr" id="iNS-3f-HnA"/>
                         <outlet property="parentView" destination="FKH-6I-9eG" id="Ri8-tq-kL1"/>
                         <outlet property="runsLBL" destination="HyB-ye-CPY" id="AEi-zH-0MB"/>

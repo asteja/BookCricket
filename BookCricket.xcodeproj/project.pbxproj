@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		93158DBD1E44E59200BFFF4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DBC1E44E59200BFFF4D /* AppDelegate.swift */; };
-		93158DBF1E44E59200BFFF4D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DBE1E44E59200BFFF4D /* FirstViewController.swift */; };
-		93158DC11E44E59200BFFF4D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DC01E44E59200BFFF4D /* SecondViewController.swift */; };
+		93158DBF1E44E59200BFFF4D /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DBE1E44E59200BFFF4D /* ScoreViewController.swift */; };
+		93158DC11E44E59200BFFF4D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DC01E44E59200BFFF4D /* SettingsViewController.swift */; };
 		93158DC41E44E59200BFFF4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93158DC21E44E59200BFFF4D /* Main.storyboard */; };
 		93158DC61E44E59200BFFF4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93158DC51E44E59200BFFF4D /* Assets.xcassets */; };
 		93158DC91E44E59200BFFF4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93158DC71E44E59200BFFF4D /* LaunchScreen.storyboard */; };
+		93158DD11E44EAEB00BFFF4D /* TeamScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DD01E44EAEB00BFFF4D /* TeamScoreViewController.swift */; };
+		93158DD31E44EDA700BFFF4D /* Cricket-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 93158DD21E44EDA700BFFF4D /* Cricket-48.png */; };
+		93158DD51E44EE0300BFFF4D /* Settings 3-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 93158DD41E44EE0300BFFF4D /* Settings 3-25.png */; };
+		93158DD71E44EE7F00BFFF4D /* Dossier-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 93158DD61E44EE7F00BFFF4D /* Dossier-25.png */; };
+		93158DD91E44EF7500BFFF4D /* CricketBall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93158DD81E44EF7500BFFF4D /* CricketBall.jpg */; };
+		93158DDC1E44F17100BFFF4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93158DDB1E44F17100BFFF4D /* CoreGraphics.framework */; };
+		93158DDE1E44FDF500BFFF4D /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DDD1E44FDF500BFFF4D /* LabelView.swift */; };
+		93158DE01E4523D500BFFF4D /* CricketGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DDF1E4523D500BFFF4D /* CricketGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93158DB91E44E59200BFFF4D /* BookCricket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookCricket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93158DBC1E44E59200BFFF4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93158DBE1E44E59200BFFF4D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		93158DC01E44E59200BFFF4D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		93158DBE1E44E59200BFFF4D /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		93158DC01E44E59200BFFF4D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		93158DC31E44E59200BFFF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93158DC51E44E59200BFFF4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93158DC81E44E59200BFFF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93158DCA1E44E59200BFFF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93158DD01E44EAEB00BFFF4D /* TeamScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamScoreViewController.swift; sourceTree = "<group>"; };
+		93158DD21E44EDA700BFFF4D /* Cricket-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cricket-48.png"; sourceTree = "<group>"; };
+		93158DD41E44EE0300BFFF4D /* Settings 3-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings 3-25.png"; sourceTree = "<group>"; };
+		93158DD61E44EE7F00BFFF4D /* Dossier-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dossier-25.png"; sourceTree = "<group>"; };
+		93158DD81E44EF7500BFFF4D /* CricketBall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CricketBall.jpg; sourceTree = "<group>"; };
+		93158DDB1E44F17100BFFF4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93158DDD1E44FDF500BFFF4D /* LabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		93158DDF1E4523D500BFFF4D /* CricketGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CricketGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93158DDC1E44F17100BFFF4D /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,7 @@
 			children = (
 				93158DBB1E44E59200BFFF4D /* BookCricket */,
 				93158DBA1E44E59200BFFF4D /* Products */,
+				93158DDA1E44F17100BFFF4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +75,29 @@
 			isa = PBXGroup;
 			children = (
 				93158DBC1E44E59200BFFF4D /* AppDelegate.swift */,
-				93158DBE1E44E59200BFFF4D /* FirstViewController.swift */,
-				93158DC01E44E59200BFFF4D /* SecondViewController.swift */,
+				93158DBE1E44E59200BFFF4D /* ScoreViewController.swift */,
+				93158DC01E44E59200BFFF4D /* SettingsViewController.swift */,
 				93158DC21E44E59200BFFF4D /* Main.storyboard */,
+				93158DDD1E44FDF500BFFF4D /* LabelView.swift */,
 				93158DC51E44E59200BFFF4D /* Assets.xcassets */,
+				93158DD81E44EF7500BFFF4D /* CricketBall.jpg */,
+				93158DD61E44EE7F00BFFF4D /* Dossier-25.png */,
+				93158DD21E44EDA700BFFF4D /* Cricket-48.png */,
+				93158DD41E44EE0300BFFF4D /* Settings 3-25.png */,
 				93158DC71E44E59200BFFF4D /* LaunchScreen.storyboard */,
 				93158DCA1E44E59200BFFF4D /* Info.plist */,
+				93158DD01E44EAEB00BFFF4D /* TeamScoreViewController.swift */,
+				93158DDF1E4523D500BFFF4D /* CricketGame.swift */,
 			);
 			path = BookCricket;
+			sourceTree = "<group>";
+		};
+		93158DDA1E44F17100BFFF4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93158DDB1E44F17100BFFF4D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +132,7 @@
 				TargetAttributes = {
 					93158DB81E44E59200BFFF4D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NNMZKMNSPS;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,9 +160,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93158DD71E44EE7F00BFFF4D /* Dossier-25.png in Resources */,
+				93158DD51E44EE0300BFFF4D /* Settings 3-25.png in Resources */,
 				93158DC91E44E59200BFFF4D /* LaunchScreen.storyboard in Resources */,
 				93158DC61E44E59200BFFF4D /* Assets.xcassets in Resources */,
 				93158DC41E44E59200BFFF4D /* Main.storyboard in Resources */,
+				93158DD91E44EF7500BFFF4D /* CricketBall.jpg in Resources */,
+				93158DD31E44EDA700BFFF4D /* Cricket-48.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93158DC11E44E59200BFFF4D /* SecondViewController.swift in Sources */,
+				93158DC11E44E59200BFFF4D /* SettingsViewController.swift in Sources */,
+				93158DE01E4523D500BFFF4D /* CricketGame.swift in Sources */,
 				93158DBD1E44E59200BFFF4D /* AppDelegate.swift in Sources */,
-				93158DBF1E44E59200BFFF4D /* FirstViewController.swift in Sources */,
+				93158DD11E44EAEB00BFFF4D /* TeamScoreViewController.swift in Sources */,
+				93158DBF1E44E59200BFFF4D /* ScoreViewController.swift in Sources */,
+				93158DDE1E44FDF500BFFF4D /* LabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NNMZKMNSPS;
 				INFOPLIST_FILE = BookCricket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dreamer.BookCricket;
@@ -276,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NNMZKMNSPS;
 				INFOPLIST_FILE = BookCricket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dreamer.BookCricket;

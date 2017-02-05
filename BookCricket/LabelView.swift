@@ -9,6 +9,9 @@
 import UIKit
 
 class LabelView: UIView {
+    
+    
+    
 
     /*
     // Only override draw() if you perform custom drawing.

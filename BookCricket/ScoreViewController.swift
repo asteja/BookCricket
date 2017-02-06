@@ -15,8 +15,6 @@ class ScoreViewController: UIViewController {
     @IBOutlet weak var parentView: UIView!
     @IBOutlet weak var labelVW: UIView!
     
-    
-    
     @IBOutlet weak var runsLBL: UILabel!
     @IBOutlet weak var scoreLBL: UILabel!
     @IBOutlet weak var scoreBTN: UIButton!

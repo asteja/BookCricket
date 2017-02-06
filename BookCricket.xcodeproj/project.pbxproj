@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930D99261E47F26E00F1A08F /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D99251E47F26E00F1A08F /* LabelView.swift */; };
 		93158DBD1E44E59200BFFF4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DBC1E44E59200BFFF4D /* AppDelegate.swift */; };
 		93158DBF1E44E59200BFFF4D /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DBE1E44E59200BFFF4D /* ScoreViewController.swift */; };
 		93158DC11E44E59200BFFF4D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93158DC01E44E59200BFFF4D /* SettingsViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		930D99251E47F26E00F1A08F /* LabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		93158DB91E44E59200BFFF4D /* BookCricket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookCricket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93158DBC1E44E59200BFFF4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93158DBE1E44E59200BFFF4D /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				93158DCA1E44E59200BFFF4D /* Info.plist */,
 				93158DD01E44EAEB00BFFF4D /* TeamScoreViewController.swift */,
 				93158DDF1E4523D500BFFF4D /* CricketGame.swift */,
+				930D99251E47F26E00F1A08F /* LabelView.swift */,
 			);
 			path = BookCricket;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				93158DBD1E44E59200BFFF4D /* AppDelegate.swift in Sources */,
 				93158DD11E44EAEB00BFFF4D /* TeamScoreViewController.swift in Sources */,
 				93158DBF1E44E59200BFFF4D /* ScoreViewController.swift in Sources */,
+				930D99261E47F26E00F1A08F /* LabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,6 +27,7 @@ class CricketGame {
         self.gameOver = false
     }
     
+     
     func generateRun()->String {
         
         if balls<(self.overs*6) && wickets<=self.players {

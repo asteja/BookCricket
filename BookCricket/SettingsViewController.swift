@@ -35,7 +35,7 @@ class SettingsViewController: UIViewController {
         playersTF.resignFirstResponder()
         
         let alert = UIAlertController(title: "", message: "Overs and Wickets Set", preferredStyle: .alert)
-        let alertAction = UIAlertAction(title: "Cancel", style: .cancel) { [unowned self](alertAction) in
+        let alertAction = UIAlertAction(title: "Cancel", style: .cancel) { (alertAction) in
             self.oversTF.text = nil
             self.playersTF.text = nil
         }
